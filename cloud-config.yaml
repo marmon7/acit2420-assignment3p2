@@ -25,3 +25,4 @@ runcmd:
   - systemctl restart systemd-journald
   - ufw allow SSH
   - ufw allow http
+  - ufw enable
